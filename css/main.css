@@ -1,0 +1,10 @@
+.glyphicon {
+    color: white;
+}
+
+footer {
+    background-color: rgba(29, 36, 38, 0.8);
+    height: 100px;
+    text-align: center;
+    padding: 10rem;
+}
