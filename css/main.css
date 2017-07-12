@@ -1,5 +1,20 @@
+* {
+ font-family: 'Open Sans', sans-serif;
+}
+
 .glyphicon {
     color: white;
+}
+
+body {
+ background-image: url(../img/banner.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+}
+
+#compromiso {
+ background-color: #21B2A6;
 }
 
 footer {
