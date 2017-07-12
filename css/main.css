@@ -1,5 +1,6 @@
 * {
  font-family: 'Open Sans', sans-serif;
+ color: white;
 }
 
 .glyphicon {
@@ -15,6 +16,18 @@ body {
 
 #compromiso {
  background-color: #21B2A6;
+}
+
+#can {
+ background-color: #2B343D;
+}
+
+.img-text {
+ max-width: 100%;
+}
+
+#beneficios {
+ background-color: #505393;
 }
 
 footer {
