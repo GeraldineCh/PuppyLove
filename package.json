@@ -1,0 +1,27 @@
+{
+  "name": "puppy-love",
+  "version": "1.0.0",
+  "description": "Ejercicio sobre accesibilidad y SEO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeraldineCh/PuppyLove.git"
+  },
+  "keywords": [
+    "html",
+    "puppy",
+    "css"
+  ],
+  "author": "Geraldine Chauca <@GeraldineCh>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeraldineCh/PuppyLove/issues"
+  },
+  "homepage": "https://github.com/GeraldineCh/PuppyLove#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
