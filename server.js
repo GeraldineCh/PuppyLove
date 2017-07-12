@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 //aquí le decimos que use los archivos estáticos y que se muestren al llamar a la ruta '/'
-app.use('/', express.static('public'));
+app.use(express.static('public'));
 app.set('port', (process.env.PORT || 5000));
 
 //aquí le decimos al framework desde que puerto
