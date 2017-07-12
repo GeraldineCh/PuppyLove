@@ -1,3 +1,4 @@
+/*GENERALES*/
 * {
  font-family: 'Open Sans', sans-serif;
  color: white;
@@ -14,22 +15,76 @@ body {
  background-size: cover;
 }
 
-#compromiso {
- background-color: #21B2A6;
+/*HEADER*/
+
+header {
+ padding: 4rem;
+ height: 500px;
 }
 
+@media (max-width: 767px) {
+ header {
+  height: 300px;
+ }
+}
+
+h3 {
+ font-weight: bolder;
+ border-top: 2px white solid;
+ border-bottom: 2px white solid;
+ width: 25rem;
+ padding: 1rem;
+ margin-left: 40%;
+}
+
+.title {
+ font-weight: bolder;
+}
+
+
+/*COMPROMISO*/
+#compromiso {
+ background-color: #21B2A6;
+ padding: 5rem;
+}
+
+
+/*CAN*/
 #can {
  background-color: #2B343D;
+}
+
+.col-md-8 {
+ padding: 8rem 2rem;
+}
+
+@media (max-width: 767px) {
+ .col-md-8 {
+  padding: 2rem;
+ }
 }
 
 .img-text {
  max-width: 100%;
 }
 
+/*BENEFICIOS*/
 #beneficios {
  background-color: #505393;
+ padding: 6rem;
 }
 
+@media (max-width: 767px) {
+ #beneficios {
+  height: 300px;
+ }
+}
+
+.col-md-3 {
+ padding: 3rem;
+}
+
+/*FOOTER*/
 footer {
     background-color: rgba(29, 36, 38, 0.8);
     height: 100px;
